@@ -11,6 +11,6 @@ You will also see any lint errors in the console.
 ###    `Demo`
 Deployed on @Netlify
 
-Open [https://digital-products.netlify.app](digital Products) to view it in the browser.
+Open [https://digital-products.netlify.app](https://digital-products.netlify.app) to view it in the browser.
 
 

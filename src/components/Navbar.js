@@ -3,11 +3,12 @@ import {Link} from "react-router-dom"
 import logo from "../logo.svg"
 import styled from "styled-components"
 import {ButtonContainer} from "./Button"
-
+import Menu from "./Menu"
 export default class navbar extends Component {
     render() {
         return (
-            <NavWrapper className="navbar navbar-expand-sm  navbar-dark px-sm-5">
+            <NavWrapper className="navbar navbar-expand-sm  navbar-dark ">
+             <Menu/>
     <Link to="/">
         <img src={logo} alt="store" className="navbar-brand" />
     </Link>
@@ -16,6 +17,7 @@ export default class navbar extends Component {
 <Link to="/" className="nav-link">Products</Link>
 </li>
     </ul>
+   
     <Link to="/cart" className="ml-auto">
         <ButtonContainer>
         <span className="mr-2">
@@ -34,6 +36,7 @@ export default class navbar extends Component {
 
 const NavWrapper=styled.nav`
 background : var(--mainBlue);
+
 .nav-link{
     
     color:var(--mainWhite) !important;

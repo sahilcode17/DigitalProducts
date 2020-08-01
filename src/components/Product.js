@@ -5,9 +5,12 @@ import {ProductConsumer} from "../context"
 import propTypes from "prop-types"
 
 export default class Product extends Component {
+
     render() {
         const {id,title,img,price,inCart}=this.props.product
-        return (
+      
+       
+         return (
             <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3" >
                 <div className="card">
                 <ProductConsumer>
@@ -16,8 +19,10 @@ export default class Product extends Component {
                 onClick={() => 
                 value.handleDetail(id)
                 }>
+                
+
                     <Link to="/details">
-                    <img src={img} alt="product" className="card-img-top"/>
+                    <img  src={(title=="Mobile App") ? img[3] :img } alt="product" className="card-img-top"/>
 
                     </Link>
                     <button 

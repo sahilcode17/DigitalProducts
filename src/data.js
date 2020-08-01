@@ -3,8 +3,8 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel - Black",
-    img: "img/product-1.png",
+    title: "Mobile App",
+    img: ["img/product1/1.png","img/product1/2.png","img/product1/3.png","img/product1/4.png"],
     price: 10,
     company: "GOOGLE",
     info:

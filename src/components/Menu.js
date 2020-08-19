@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
     function openNav() {
@@ -14,7 +15,10 @@ export default function Menu() {
         <div>
            <div id="mySidebar" className="sidebar">
   <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
-  <a href="#">All Items</a>
+  
+  
+  
+  
   <a href="#">Android Apps</a>
   <a href="#">IOS Apps</a>
   <a href="#">Web templates</a>

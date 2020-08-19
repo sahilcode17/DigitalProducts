@@ -1,47 +1,51 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom"
-import logo from "../logo.svg"
+import logo from "../logo.png"
 import styled from "styled-components"
 import {ButtonContainer} from "./Button"
 import Menu from "./Menu"
+import GoogleBtn from "./GoogleBtn"
 export default class navbar extends Component {
     render() {
         return (
-            <NavWrapper className="navbar navbar-expand-sm  navbar-dark ">
-             <Menu/>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            
     <Link to="/">
-        <img src={logo} alt="store" className="navbar-brand" />
+        <img src={logo} width="120px" height="80px" alt="store" className="navbar-brand" />
     </Link>
-    <ul className="navbar-nav align-items-center">
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto align-items-center">
 <li className="nav-item ml-5" >
-<Link to="/" className="nav-link">Products</Link>
+<Link to="/" className="nav-link">Apps</Link>
+</li>
+<li className="nav-item ml-5" >
+<Link to="/" className="nav-link">Scripts</Link>
+</li>
+<li className="nav-item ml-5" >
+<Link to="/" className="nav-link">Template</Link>
 </li>
     </ul>
-   
-    <Link to="/cart" className="ml-auto">
+   <form className="form-inline my-2 my-lg=0">
+   <Link to="/cart" className="ml-auto">
         <ButtonContainer>
         <span className="mr-2">
         <i className="fa fa-cart-plus" aria-hidden="true"> my Cart</i>    
         </span>
-        
-        
+
         </ButtonContainer>
     </Link>
+    <GoogleBtn />
+   </form>
     
-            </NavWrapper>
+    </div>
+            </nav>
         )
     }
 }
 
 
-const NavWrapper=styled.nav`
-background : var(--mainBlue);
 
-.nav-link{
-    
-    color:var(--mainWhite) !important;
-    font-size:1.3rem;
-    text-transform:capitalize;
-}
-`
 

@@ -9,7 +9,7 @@ export default class Details extends Component {
         return (
             <ProductConsumer>
                 {(value) => {
-                    const {id,company,img,info,title,inCart,price}=value.detailProduct
+                    const {id,company,info,title,inCart,price}=value.detailProduct
                 return(
                     <div className="container py-5">
                     {/* title */}

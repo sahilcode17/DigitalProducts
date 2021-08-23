@@ -6,7 +6,7 @@ export default class Footer extends Component {
            <footer className="container-fluid" >
            <div className="row">
            <div className="col">
-                    <p className="text-center text-blue">  <img src={logo} width="120px" height="80px" /> Digital Forest</p>
+                    <p className="text-center text-blue">  <img src={logo} width="120px" height="80px" alt="" /> Digital Forest</p>
 
                </div>
               

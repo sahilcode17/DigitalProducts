@@ -22,7 +22,7 @@ export default class Product extends Component {
                 
 
                     <Link to="/details">
-                    <img  src={(title=="Mobile App") ? img[3] :img } alt="product" className="card-img-top"/>
+                    <img  src={(title==="Mobile App") ? img[3] :img } alt="product" className="card-img-top"/>
 
                     </Link>
                     <button 

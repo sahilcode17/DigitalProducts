@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom"
 import logo from "../logo.png"
-import styled from "styled-components"
+
 import {ButtonContainer} from "./Button"
-import Menu from "./Menu"
-import GoogleBtn from "./GoogleBtn"
+
+
 export default class navbar extends Component {
     render() {
         return (
@@ -37,7 +37,7 @@ export default class navbar extends Component {
 
         </ButtonContainer>
     </Link>
-    <GoogleBtn />
+    
    </form>
     
     </div>

@@ -8,9 +8,9 @@ An Ecommerce Website that allows you to choice the best smartphone for your self
 
 ### Snapshots :
 
-<img align="left" height="200px" alt="GIF" src="public\img\windo.PNG"/>
-<img align="right" height="200px" alt="GIF" src="public\img\featuredetail.PNG"/>
-<img align="center" height="400px" alt="GIF" src="public\img\cart.PNG"/>
+<img align="center" height="300px" alt="GIF" src="public\img\windo.PNG"/>
+<img align="center" height="300px" alt="GIF" src="public\img\featuredetail.PNG"/>
+<img align="center" height="300px" alt="GIF" src="public\img\cart.PNG"/>
 
 ## Usage
 

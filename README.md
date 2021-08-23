@@ -2,15 +2,15 @@
 
 An Ecommerce Website that allows you to choice the best smartphone for your self.
 
-### Want to Try Out : DigitalProduct(https://digital-product.netlify.app/).
+### Want to Try Out : [DigitalProduct](https://digital-product.netlify.app/).
 
 ---
 
 ### Snapshots :
 
-<img align="left"  height="200px" alt="GIF" src="public/img/windo.png"/>
-<img align="center" height="200px" alt="GIF" src="public/img/featuredetail.png"/>
-<img align="right" height="200px" alt="GIF" src="public/img/cart.png"/>
+<img align="left"  height="200px" alt="GIF" src="public\img\windo.PNG"/>
+<img align="center" height="200px" alt="GIF" src="public\img\featuredetail.PNG"/>
+<img align="right" height="200px" alt="GIF" src="public\img\cart.PNG"/>
 
 ## Usage
 
@@ -23,3 +23,5 @@ npm start
 # Build for prod
 npm run build
 ```
+
+public\img\cart.PNG
